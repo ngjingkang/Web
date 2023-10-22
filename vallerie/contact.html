@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shome | Contact Us</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="contact.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<header>
+    <nav class="header">
+        <ul>
+            <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png"></a></li>
+            <li><a href="../jing kang/home.html">Home</a></li>
+            <li><a href="../jing kang/customisation.html">Customization</a></li>
+            <li><a href="../yong qi/myfavourite.html">My_Favourite</a></li>
+            <li style="float: right;"><a href="../yong qi/myprofile.html">Login</a></li>
+            <li style="float: right;"><a href="../yu shun/addtocart3.html">Your_Cart<i class="fa fa-shopping-cart"></i></a></li>
+        </ul>
+    </nav>
+</header>
+
+<body>
+    <div class="banner">
+        <h1>CONTACT US</h1>
+        <h3>WE&#8217D LOVE TO HEAR FROM YOU</h3>
+    </div>
+    <div class="whole">
+        <div class="contactus">
+            <div class="contactUsForm" method="get">
+                <form action="respond.html">
+                    <div class="cuformT" id="issue">
+                        <label for="issue">What can we help you with today?<span class="fsRequiredMarker">*</span></label><br />
+                        <select id="issue" name="issue" size="1">
+                            <option value=""></option>
+                            <option value="inquiry">Inquiry</option>
+                            <option value="order">Order</option>
+                            <option value="shipping">Shipping</option>
+                            <option value="websites">Website</option>
+                            <option value="registration">Registration</option>
+                            <option value="voucher">Voucher</option>
+                            <option value="others">Others</option>
+                        </select><br><br>
+                    </div>
+                    <div class="cuformT" id="f_first_name">
+                        <label for="first_name">First Name<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="text" name="first_name" id="first_name" required pattern="[a-zA-Z ]{2,}" title="First name should only contain lowercase and uppercase letter." /><br><br>
+                    </div>
+                    <div class="cuformT" id="f_last_name">
+                        <label for="last_name">Last Name<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="text" name="last_name" id="last_name" required pattern="[a-zA-Z ]{2,}" title="Last name should only contain lowercase and uppercase letter." /><br><br>
+                    </div>
+                    <div class="cuformT" id="f_email">
+                        <label for="email">Email<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="email" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Please enter a valid email." /><br><br>
+                    </div>
+                    <div class="cuformT" id="f_phone">
+                        <label for="phone">Phone<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="tel" name="phone" id="phone" required pattern="[0-9-]{9,12}" title="Please enter a valid phone number."/><br><br>
+                    </div>
+                    <div class="cuformT" id="f_address">
+                        <label for="address">Address<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="text" name="address" id="address" required pattern="[a-z0-9._%+- ]{10,}" /><br><br>
+                    </div>
+                    <div class="cuformT" id="f_city">
+                        <label for="city">City<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="text" name="city" id="city" required pattern="[a-zA-Z ]{2,}" title="Please enter a valid city" /><br><br>
+                    </div>
+                    <div class="cuformT" id="f_state">
+                        <label for="state">State<span class="fsRequiredMarker">*</span></label><br />
+                        <select id="state" name="state" size="1">
+                            <option value=""></option>
+                            <option value="johor">Johor</option>
+                            <option value="kedah">Kedah</option>
+                            <option value="kelantan">Kelantan</option>
+                            <option value="melaka">Melaka</option>
+                            <option value="nSembilan">Negeri Sembilan</option>
+                            <option value="pahang">Pahang</option>
+                            <option value="penang">Penang</option>
+                            <option value="perak">Perak</option>
+                            <option value="perlis">Perlis</option>
+                            <option value="sabah">Sabah</option>
+                            <option value="sarawak">Sarawak</option>
+                            <option value="selangor">Selangor</option>
+                            <option value="terengganu">Terengganu</option>
+                            <option value="kualaLumpur">Kuala Lumpur</option>
+                            <option value="labuan">Labuan</option>
+                            <option value="putrajaya">Putrajaya</option>
+                        </select><br /><br />
+                    </div>
+                    <div class="cuformT" id="f_postal">
+                        <label for="postal">Postal Code<span class="fsRequiredMarker">*</span></label><br />
+                        <input type="text" name="postal" id="postal" pattern="[0-9 ]{5}" required title="Postal code should only contain 5 numerical number."/><br><br>
+                    </div>
+                    <div class="cuformT" id="f_message">
+                        <label for="details">Please provide details on issue or question:<span class="fsRequiredMarker">*</span></label><br />
+                        <textarea name="message" rows="10" cols="30"></textarea><br /><br />
+                    </div>
+                    <div class="cuformT" id="f_support_doc">
+                        <label for="support_doc">Supporting Document : </label>
+                        <input type="file" name="support_doc" id="support_doc" multiple><br /><br />
+                    </div>
+                    <button class="submit" type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class="extra">
+            <h1>REACH <br />OUT TO US</h1>
+            <i class="fa fa-phone" style="font-size: 24px; color: rgb(92, 61, 46);"><a href="tel:+60123456789">&nbsp;&nbsp; +6012 345 6789</a><br /></i>
+            <br />
+            <i class="fa fa-envelope" style="font-size: 24px; color: rgb(92, 61, 46);"><a href="mailto:SHOME@gmail.com">&nbsp;&nbsp; Shome@gmail.com</a></i><br />
+
+
+        </div>
+    </div>
+    <div>
+        <div class="ContactUs">
+            <i class="fa fa-envelope-o" style="font-size:36px;"></i><a href="../vallerie/contact.html">Contact_Us</a>
+        </div>
+    </div>
+    <footer>
+        <table class="footer">
+            <tr>
+                <th>LOCATION</th>
+                <th>MENU</th>
+                <th>MORE INFORMATION</th>
+                <th>CONTACTS</th>
+            </tr>
+            <tr>
+                <td style="font-family: 'Times New Roman', Times, serif;">
+                    <ul class="location" style="line-height: 20px;">
+                        <i style="color: gray;">
+                            Lot 7.26 A&B-3, Level 3 Parkson,<br>
+                            Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
+                            Bukit Bintang, 55100 Kuala Lumpur,<br>
+                            Wilayah Persekutuan Kuala Lumpur
+                        </i>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="menu">
+                        <li><a href="../jing kang/home.html">Home</a></li>
+                        <li><a href="../yong qi/myprofile.html">Profile</a></li>
+                        <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                        <li><a href="../yong qi/myfavourite.html">Favourite</a></li>
+                        <li><a href="../yu shun/addtocart3.html">Your Cart</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="moreinformation">
+                        <li><a href="../yong qi/privacy.html">Privacy Policy</a></li>
+                        <li><a href="../vallerie/faq.html">FAQ</a></li>
+                        <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                        <li><a href="../sam/about_us.html">About Us</a></li>
+                    </ul>
+                </td>
+                <td>
+                    <ul class="contact">
+                        <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                        <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                        <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                        <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                        <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                        <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>

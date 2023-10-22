@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    SHOME - Sub Products
+
+    Author: SAM HEW WEI
+    Date:   30th August 2021
+
+    Filename: baguette_prod.html
+    -->
+    <meta charset="utf-8" />
+    <title>SHOME | Baguette</title>
+    <link href="subproducts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="header">
+            <ul>
+                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+                <li><a href="../jing kang/home.html">Home</a></li>
+                <li><a href="../jing kang/customisation.html">Customization</a></li>
+                <li><a href="../yong qi/myfavourite.html">My_Favourite</a></li>
+                <li style="float: right;"><a href="../yong qi/myprofile.html">Login</a></li>
+                <li style="float: right;"><a href="../yu shun/addtocart3.html">Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <br />
+
+    <!--Main-->
+    <p class="titlespd"><strong>Baguette &#10147; RM10.00</strong></p>
+    <div class="btns">
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart fa-xs"></i></Button>
+        
+    </div>
+    <hr/>
+    <img src="baguette1.jpg" alt="Baguette" width="200" height="300">
+    <img src="baguette.jpeg" alt="Baguette" width="200" height="300">
+
+    <article class="AA">
+        <h3>What is a Baguette?</h3>
+        <p>A baguette is a long loaf of bread closely connected to France. It is essentially a lean, yeast-leavened bakery product made with four basic ingredients:</p>
+        <ol>
+            <li>Flour</li>
+            <li>Water</li>
+            <li>Yeast</li>
+            <li>Salt</li>
+        </ol>
+        <p>Baguettes are characterized by a crisp crust and chewy texture inside. Typically, a baguette has a diameter of 5.0–7.6 cm (2–3 inches), and a length of 60–70 cm (2.0–2.4 feet). Shome company's baguette are also made according to standard sizes.</p>
+    </article>
+
+    <article class="AB">
+        <h3>Origin</h3>
+        <p>The origins of the baguette are uncertain, but it is generally accepted that it was first made in Vienna as an adaptation of another type of bread. Baguettes then became popular when the French government mandated that bakers not be allowed to work before 4 a.m. making it impossible to make traditional round loaves in time for customers’ breakfast.</p>
+        <p>Subsequently, bakers had to bake the thinner shaped baguette that would bake faster for the breakfast rush. This switch was also facilitated with the development of new slow yeast fermentation techniques and the availability of new deck ovens which used steam injection  Over the years, the baguette became a symbol of France, with a revival in the 1990s.</p>
+    </article>
+
+    <article class="AC">
+        <br/>
+        <hr/>
+        <h3>Shome's Baguette</h3>
+        <p>Baguette which is also known as "French Loaf" is fresh, warm and delicious. Usually served with butter or cheese dunked in bowls of soup,coffee or hot chocolate a perfect combinations. 5 days shelf life to keep in a dry place.</p>
+        <ul>
+            <li>Size: 2 to 3 inches</li>
+            <li>Weight: 450g +/- (Per baguette)</li>
+            <li>Grab your order now !</li>
+        </ul>
+    </article>
+
+    <div>
+        <div class="ContactUs">
+            <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
+        </div>
+    </div>
+    <script>
+        //Like Button   
+        var btnvar1 = document.getElementById('btnh1');
+
+        function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+            alert ("Thank you for your favourite !\nYou are loved, too.");
+            document.location='../yong qi/myfavourite.html';
+        }
+        </script>
+</body>
+<br />
+
+<!--Footer-->
+<footer style="background-color: black;">
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">
+                        Lot 7.26 A&B-3, Level 3 Parkson,<br>
+                        Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
+                        Bukit Bintang, 55100 Kuala Lumpur,<br>
+                        Wilayah Persekutuan Kuala Lumpur
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="../yong qi/myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="../yong qi/myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart3.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../yong qi/privacy.html">Privacy Policy</a></li>
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
+
+
+</html>

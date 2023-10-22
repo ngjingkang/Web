@@ -1,0 +1,249 @@
+@charset "utf-8";
+html{
+    position: relative;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+body{
+    background-color:rgb(245, 232, 199);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+nav.header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(92, 61, 46);
+    height: 100px;
+    width: 100%;
+    border-radius: 20px; 
+}
+
+
+nav.header ul li{
+    float: left;
+    width: auto;
+} 
+
+nav.header li:hover{
+    background-color: rgb(134, 84, 57);
+}
+
+nav.header ul li>a{
+    display: block;
+    padding: 33px 30px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav.header ul li > a > img{
+    display: block;
+    width: 260px;
+    height: 100px;
+}
+
+div img.map{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+table.Products tr th.a{
+    padding-top: 10%;
+    font-size: 42px;
+    padding-left: 4%;
+    padding-bottom: 2%;
+    text-align:left;
+}
+table tr td{
+    text-align: center;
+}
+
+table tr th{
+    font-size: 25px;
+}
+
+.Products{
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+table tr th a{
+    color: black;
+    text-decoration: none;
+}
+
+table tr td a img{
+    border-radius: 20px;
+    width: 300px; 
+    height: 400px; 
+    margin:10px 50px;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 1%;
+    font-size :50px;
+}
+
+table.recipe{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table.recipe tr th img{
+    width: 100%;
+    height: 450px;
+    border-radius: 2%;
+}
+
+table.recipe tr td h2{
+    margin: 0px;
+    display: block;
+    padding-top: 20px;
+    font-size: 35px;
+}
+
+table.recipe tr.button td{
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+
+table.recipe tr td button{
+    width: 180px;
+    height: 70px;
+    border-radius: 5px;
+    background-color: rgb(92, 61, 46);
+    transition-duration: 0.5s;
+}
+
+table.recipe tr td button a{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: black;
+    border-color: black;
+    font-weight: bold;
+}
+
+table.recipe tr td button a:hover{
+    color:white;
+}
+
+table.recipe tr td button:hover{
+    
+    background-color:rgb(134, 84, 57);
+}
+
+
+div.ContactUs{
+    width: 180px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(92, 61, 46);
+    border-top-left-radius: 10px;
+    color: whitesmoke;
+}
+
+div.ContactUs a{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    vertical-align:5px;
+}
+
+div.ContactUs:hover{
+    background-color: rgb(134, 84, 57);
+}
+
+div.ContactUs i{
+    padding-left:10px ;
+    padding-top: 5px;
+  
+}
+
+footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    display: block;
+}
+
+table.footer{
+    margin-left:0;
+    margin-right: auto;
+    margin-top: 100px;
+    width: 80%;
+    
+}
+
+table.footer tr th{
+    text-align: center;
+    font-size: 25px;
+}
+
+table.footer tr td{
+    text-align: left;
+    
+}
+
+table.footer tr td ul li{
+    list-style-type: none;
+}
+
+table.footer tr td ul li >a{
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+}
+
+table.footer tr td ul li >a:hover{
+    color: blue;
+}
+
+table.footer tr td ul{
+    margin: 0%;
+}
+
+table.footer tr td ul.location{
+    padding-left: 35%;
+}
+
+table.footer tr td ul.menu{
+    padding-left: 30%;
+    line-height: 30px;
+    padding-top: 20px;
+}
+
+table.footer tr td ul.moreinformation{
+    padding-left: 29%;
+    line-height: 30px;
+}
+
+table.footer tr td ul.contact{
+    padding-left: 30%;
+    line-height: 30px;
+}
+
+footer h5{
+    margin: 0%;
+    width: 400px;
+    padding-left: 45%;
+}
+

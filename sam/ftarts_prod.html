@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!--
+    SHOME - Sub Products
+
+    Author: SAM HEW WEI
+    Date:   30th August 2021
+
+    Filename: ftarts_prod.html
+    -->
+    <meta charset="utf-8" />
+    <title>SHOME</title>
+    <link href="subproducts.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/f6dcf461c1.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="header">
+            <ul>
+                <li><a style="padding: 0px;" href="../jing kang/home.html"><img src="logo.png" ></a></li>
+                <li><a href="../jing kang/home.html">Home</a></li>
+                <li><a href="../jing kang/customisation.html">Customization</a></li>
+                <li><a href="../yong qi/myfavourite.html">My_Favourite</a></li>
+                <li style="float: right;"><a href="../yong qi/myprofile.html">Login</a></li>
+                <li style="float: right;"><a href="../yu shun/addtocart3.html">Your_Cart<i class="fa fa-shopping-cart" ></i></a></li>
+            </ul>
+        </nav>
+    </header>
+    <br />
+
+    <!--Main-->
+    <p class="titlespd"><strong>Fruit Tarts (18 pcs) &#10147; RM40.00</strong></p>
+    <div class="btnsa">
+        <Button onclick="Toggle1()" id="btnh1" class="btn"><i class="fas fa-heart fa-xs"></i></Button>
+    </div>
+    <hr/>
+    <img src="fruit_tarts.jpeg" alt="Fruit Tarts" width="200" height="300">
+
+    <article class="AA">
+        <h3>What is a Tart?</h3>
+        <p>A tart is a baked dish consisting of a filling over a pastry base with an open top not covered with pastry. The pastry is usually shortcrust pastry; the filling may be sweet or savoury, though modern tarts are usually fruit-based, sometimes with custard. Tartlet refers to a miniature tart; an example would be egg tarts. The categories of "tart", "flan", "quiche", and "pie" overlap, with no sharp distinctions.
+        </p>
+    </article>
+
+    <article class="AB">
+        <h3>Origin</h3>
+        <p>According to legend, the tart was invented by the unmarried French sisters who ran the hotel in the 1880s, so in France, the actual name of the tart is "Tarte des Demoiselles Tatin" (the tart of two unmarried women named Tatin.) It actually didn't become famous until a Parisian restaurant called Maxim's put it on the menu. Nowadays, though the apple tart is still the version served in France (with tons of caramel to hold it together). The tarte Tatin can be made with any fruit, but to be strictly traditional, it must be served warm with cream on the side.</p>
+    </article>
+
+    <article class="AC">
+        <br/>
+        <hr/>
+        <h3>Shome's Tart</h3>
+        <p>Looking for a fresh, light treat for your brunch table? Try our yummy Mixed Fruit Tarts. This sweet treat is ideal for when you feel like treating yourself (and others!).  Our patisserie chef fills a buttery tart with creme Suisse and topped with a combination of fresh fruits comprising of strawberry, blackberry, kiwi, grape, cherry, apple, Pomegranate, peach. A fresh start for a great day!</p>
+        <ul>
+            <li>Size: 1.5 inch x 1.0 inch (18 pcs)</li>
+            <li>Weight: 22g +/- (Per Piece)</li>
+            <li>Pre-order: 1 Days</li>
+        </ul>
+    </article>
+
+    <div>
+        <div class="ContactUs">
+            <i class="fa fa-envelope-o" style="font-size:36px; "></i><a href="../vallerie/contact.html">Contact_Us</a>
+        </div>
+    </div>
+
+    <script>
+        //Like Button   
+        var btnvar1 = document.getElementById('btnh1');
+
+        function Toggle1(){
+                if (btnvar1.style.color =="red") {
+                    btnvar1.style.color = "grey"
+                }
+                else{
+                    btnvar1.style.color = "red"
+                }
+            alert ("Thank you for your favourite !\nYou are loved, too.");
+            document.location='../yong qi/myfavourite.html';
+        }
+    </script>
+</body>
+
+<!--Footer-->
+<footer style="background-color: black;">
+    <table class="footer">
+        <tr>
+            <th>LOCATION</th>
+            <th>MENU</th>
+            <th>MORE INFORMATION</th>
+            <th>CONTACTS</th>
+        </tr>
+        <tr>
+            <td style="font-family: 'Times New Roman', Times, serif;">
+                <ul class="location" style="line-height: 20px;">
+                    <i style="color: gray;">
+                        Lot 7.26 A&B-3, Level 3 Parkson,<br>
+                        Pavilion Kuala Lumpur, 165, Jalan Bukit Bintang,<br>
+                        Bukit Bintang, 55100 Kuala Lumpur,<br>
+                        Wilayah Persekutuan Kuala Lumpur
+                    </i>
+                </ul>
+            </td>
+            <td>
+                <ul class="menu">
+                    <li><a href="../jing kang/home.html">Home</a></li>
+                    <li><a href="../myprofile.html">Profile</a></li>
+                    <li><a href="../jing kang/customisation.html">Custom cake</a></li>
+                    <li><a href="../yong qi/myfavourite.html">Favourite</a></li>
+                    <li><a href="../yu shun/addtocart3.html">Your Cart</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="moreinformation">
+                    <li><a href="../yong qi/privacy.html">Privacy Policy</a></li>
+                    <li><a href="../vallerie/faq.html">FAQ</a></li>
+                    <li><a href="../vallerie/tnc.html">Terms & Conditions</a></li>
+                    <li><a href="../sam/about_us.html">About Us</a></li>
+                </ul>
+            </td>
+            <td>
+                <ul class="contact">
+                    <li><a href="tel:+60123456789">+6012 345 6789</a></li>
+                    <li><a href="mailto:SHOME@gmail.com">Shome@gmail.com</a></li>
+                    <i class="fa fa-facebook-square" style="font-size: 36px;"></i>
+                    <i class="fa fa-whatsapp" style="font-size: 36px;"></i>
+                    <i class="	fa fa-twitter" style="font-size: 36px;"></i>
+                    <i class="	fa fa-instagram" style="font-size: 36px;"></i>
+                </ul>
+            </td>
+        </tr>
+    </table>
+    <hr>
+    <h5><i class="fa fa-copyright">2021 SHOME Bakery Company.All rights reserved</i></h5>
+</footer>
+</html>

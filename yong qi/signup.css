@@ -1,0 +1,243 @@
+@charset "utf-8";
+
+html{
+  position: relative;
+  width: 100%;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color:rgb(245, 232, 199);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/*header*/
+nav.header ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(92, 61, 46);
+  height: 100px;
+  width: 99%;
+  border-radius: 20px;
+}
+
+nav.header ul li{
+  float: left;
+  width: auto;
+} 
+
+nav.header li:hover{
+  background-color: rgb(134, 84, 57);
+}
+
+nav.header ul li>a{
+  display: block;
+  padding: 33px 30px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+nav.header ul li > a > img{
+  display: block;
+  width: 260px;
+  height: 100px;
+}
+
+/*my profile*/
+@keyframes colorchange{
+    0%{color:rgb(121, 8, 226);}
+    50%{color:rgb(169, 107, 226);}
+    100%{color:palevioletred;}
+}
+
+h1{
+    text-align: center;
+    font-family:cursive;
+    animation-name: colorchange;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+  }
+  
+  p{
+    text-align: center;
+  }
+  
+  .bg-img {
+    width: 60%;
+    margin: auto;
+    background-color:burlywood;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+  }
+  
+  /* container */
+  .container {
+    position:relative;
+    margin: auto;
+    width:80%;
+    padding: 16px;
+  }
+  
+  /* Full-width input fields */
+  input[type=text],input[type=date], input[type=tel], input[type=email],input[type=password] {
+    width: 100%;
+    padding: 15px;
+    display: inline-block;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* submit button */
+  .btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  
+  div {
+    border-radius: 5px;
+    padding: 20px;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+
+  a:hover{
+    color:blue;
+  }
+
+  /*footer*/
+  div.ContactUs{
+    width: 180px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    background-color: rgb(92, 61, 46);
+    color: whitesmoke;
+    padding: 0%;
+    border-radius: 0%;
+    border-top-left-radius: 10px;
+  }
+  
+  div.ContactUs a{
+    font-size: 25px;
+    text-align: center;
+    padding-left: 5px;
+    color: whitesmoke;
+    text-decoration: none;
+    vertical-align:5px;
+  }
+  
+  div.ContactUs:hover{
+    background-color: rgb(134, 84, 57);
+  }
+  
+  div.ContactUs i{
+    padding-left:10px ;
+    padding-top: 5px;
+  
+  }
+  /*footer*/
+  footer{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+    margin: 0px;
+    position: absolute;
+    left: 0px;
+    z-index: -1;
+    display: block;
+  }
+  
+  table.footer{
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top: 90px;  
+    width: 80%;
+    bottom: 0%;
+  }
+  
+  table.footer tr th{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    padding: 0%;
+    margin: 0%;
+    width: 10%;
+  }
+  
+  table.footer tr td{
+    text-align: left;
+    height: 142px;
+  }
+  
+  table.footer tr td ul li{
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    display: block;
+    padding: 3px 0px;
+  }
+  
+  table.footer tr td ul li >a{
+    text-decoration: none;
+    color: gray;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    height: 140px;
+  }
+  
+  table.footer tr td ul li >a:hover{
+    color: blue;
+  }
+  
+  table.footer tr td ul{
+    margin: 0%;
+  }
+  
+  table.footer tr td ul.location{
+    padding-left: 25%;
+  }
+  
+  table.footer tr td ul.menu{
+    padding-left: 42%;
+    line-height: 150%;
+  }
+  
+  table.footer tr td ul.moreinformation{
+    padding-left: 23%;
+    line-height: 30px;
+    line-height: 150%;
+  }
+  
+  table.footer tr td ul.contact{
+    padding-left: 36%;
+    line-height: 30px;
+    line-height: 170%;
+  }
+  
+  footer h5 i{
+    width: 400px;
+  }
+  footer h5{
+    margin: 0%;
+    width: 400px;
+   padding-left: 45%;
+   font-size: 13.28px;
+  }
